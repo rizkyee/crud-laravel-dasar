@@ -9,7 +9,7 @@
 
 </head>
 <body>
-    <div class="container">
+    <div class="container" style="margin: 258px">
         <div class="card">
             <div class="card-header">Add New User</div>
             @if (Session::has('fail'))
@@ -57,7 +57,7 @@
                     <button type="submit" class="btn btn-primary">Save</button>
 
                 </form>
-                
+
             </div>
         </div>
     </div>
